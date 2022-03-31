@@ -1,0 +1,167 @@
+/*apartment_layout.css*/
+
+body {
+	font-family: verdana,arial,san-serif;
+	width: 98%;
+	height: 1100px;
+	margin-left: 1%;
+	font-size: 0.8em;
+}
+
+.hcenter {
+	text-align: center;
+}
+
+header {
+	background-color: lavender;
+}
+
+nav a {
+	margin-right: 25px;
+}
+
+.information {
+	border: 1px solid purple;
+	display: flex;
+	height: 320px;
+}
+
+.pink {
+	background-color: pink;
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+}
+
+.brown {
+	background-color: tan;
+	flex: 1;
+}
+
+.brown table {
+	margin: 5px;
+}
+
+.brown table,td,th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.brown th {
+	text-align: left;
+	height: 25px;
+	background-color: #CBCBCB;
+}
+
+.brown td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#tblenote {
+	background-color: #FEFECB;
+}
+
+.yellow {
+	background-color: #FEE3B4;
+	flex: 1;
+}
+
+.yellow figure {
+	margin-top: 15px;
+	margin-left: 5px;
+	height: 260px;
+	margin-right: 5px;
+}
+
+.yellow img {
+	width: 100%;
+	height: 100%;
+}
+
+.orange {
+	background-color: orange;
+	flex: 1;
+}
+
+.orange input, .orange p {
+	margin-left: 5px;
+}
+
+.green {
+	background-color: lightgreen;
+	flex: 1;
+}
+
+.green audio, .green p {
+	margin-left: 5px;
+}
+
+h1 {
+	color: #336699;
+	padding-top: 20px;
+}
+
+h2 {
+	background-color: lightblue;
+	margin: 5px;
+	padding: 5px;
+	color: #336699;
+}
+
+h3 {
+	background-color: gray;
+	margin: 5px;
+	padding: 5px;
+	padding-top: 10px;
+	height: 30px;
+	color: white;
+}
+
+.pinkgallery {
+	background-color: pink;
+	display: inline-block;
+	width: 99.9%;
+	height: 368px;
+}
+
+.goldbox {
+	background-color: gold;
+	width: 99.5%;
+	display: flex;
+	margin: 5px;
+	flex-wrap: wrap;
+}
+
+.whitebox {
+	background-color: white;
+	flex: 1;
+	width: 200px;
+	height: 260px;
+	margin: 30px;
+}
+
+.whitebox img {
+	width: 90%;
+	margin-left: 5%;
+	height: 75%;
+}
+
+.footer {
+	background-color: #EEE48A;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	margin: 10px 0 10px 0;
+}
+
+@media screen and (max-width:29.9999em) {
+	header img {
+		display: none;
+	}
+	
+	nav a {
+		display: block;
+		margin-bottom: 20px;
+	}
+}

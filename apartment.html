@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sandy and Leslie's Apartment</title>
+		<link href="apartment_layout.css"
+		      rel="stylesheet"
+			  type="text/css"
+		>
+	</head>
+	<body>
+		<header class="hcenter">
+			<h1>Sandy and Leslie's Apartment</h1>
+			<p>Click a room for a detailed view.</p>
+			
+			<figure>
+				<img src="images/floorplan.jpg"
+				     alt="floorplan"
+					 usemap="#floormap"
+				>
+				<map name="floormap">
+					<area shape="rect"
+						  alt="bedroom"
+						  href="bedroom.html"
+						  coords="418,23,555,137"
+					>
+					<area shape="rect"
+						  alt="kitchen"
+						  href="kitchen.html"
+						  coords="97,29,250,123"
+					>
+					<area shape="rect"
+						  alt="office"
+						  href="#"
+						  coords="391,143,566,249"
+					>
+					<area shape="circle"
+						  alt="bathroom"
+						  href="bathroom.html"
+						  coords="310,83,50"
+					>
+					<area shape="poly"
+						  alt="living room"
+						  href="livingroom.html"
+						  coords="31,125,201,122,271,194,253,216,252,249,20,249"
+					>
+				</map>
+			</figure>
+			
+			<nav>
+				<a href="apartment.html">Apartment</a>
+				<a href="bedroom.html">Bedroom</a>
+				<a href="bathroom.html">Bathroom</a>
+				<a href="livingroom.html">Living Room</a>
+				<a href="kitchen.html">Kitchen</a>
+				<a href="#">Office</a>
+			</nav>
+			<br><br>
+		</header>
+		
+		<div class ="information">
+			<div class="pink">
+				<div class="orange">
+					<h2>Survey</h2>
+					<p>How did you find out about this apartment? Check any that apply:</p>
+					<form>
+						<input type="checkbox" name="survey" id="websearch" value="Web Search">
+						<label for="websearch">Web Search</label>
+
+						<input type="checkbox" name="survey" id="friend" value="Friend">
+						<label for="friend">Friend</label>
+						
+						<input type="checkbox" name="survey" id="newspaper" value="Newspaper">
+						<label for="newspaper">Newspaper</label>
+						<br><br>
+						<input type="submit" name="submitbutton" value="Submit">
+						<input type="reset" name="resetbutton" value="Reset">
+						
+					</form>
+					
+				</div><!-- end orange -->
+				
+				<div class = "green">
+					<h2>Welcome Message</h2>
+					<br>
+					<audio controls>
+						<source src="media/apartment.mp3"
+							    type="audio/mpeg"
+						>
+					</audio>
+					<p>Transcript: Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+				</div><!-- end green -->
+			</div><!-- end pink -->
+			
+			<div class = "brown">
+				<h2>Apartment Services</h2><br>
+				<table>
+					<tr>
+						<th>Service</th>
+						<th>Day/Hours</th>
+					</tr>
+					
+					<tr>
+						<td>Gym</td>
+						<td rowspan="2">
+							Monday-Friday: 6am - 10pm<br>
+							Saturday: 8am - 8pm<br>
+							Sunday: 8am - 5pm
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Pool</td>
+					</tr>
+					
+					<tr>
+						<td>Laundry</td>
+						<td>24/7</td>
+					</tr>
+					
+					<tr>
+						<td id="tblenote" colspan="2">Please do not allow people you do not know to use these facilities.</td>
+					</tr>
+				</table>
+			</div><!-- end brown -->
+			
+			<div class = "yellow">
+				<h2>Location</h2>
+				<figure>
+					<img src="images/location.png"
+						 alt="image of a location"
+					>
+				</figure>
+			</div><!-- end yellow -->
+			
+		</div> <!-- end information -->
+		
+
+		<div class="pinkgallery">
+		<h2> Gallery </h2>
+			<div class = "goldbox">
+				<div class="whitebox">
+					<h3>Balcony</h3>
+					<img src="thumbnails/balcony_sm.jpg"
+					     alt="balcony"
+					>
+				</div>
+				<div class="whitebox">
+					<h3>Bathroom</h3>
+					<img src="thumbnails/bathroom_sm.jpg"
+					     alt="bathroom"
+					>
+				</div>
+				<div class="whitebox">
+					<h3>Bedroom</h3>
+					<img src="thumbnails/bedroom_sm.jpg"
+					     alt="bedroom"
+					>
+				</div>
+				<div class="whitebox">
+					<h3>Dining Room</h3>
+					<img src="thumbnails/diningroom_sm.jpg"
+					     alt="dining room"
+					>
+				</div>
+				<div class="whitebox">
+					<h3>Kitchen</h3>
+					<img src="thumbnails/kitchen_sm.jpg"
+					     alt="kitchen"
+					>
+				</div>
+				<div class="whitebox">
+					<h3>Living Room</h3>
+					<img src="thumbnails/livingroom_sm.jpg"
+					     alt="living room"
+					>
+				</div>
+			
+			</div><!-- end pinkgallary -->
+		</div> <!-- pinkgallery -->
+		
+		<div class = "footer">
+			For more information contact: <a href = "#">SandyAndLeslie@example.com</a><br><br>
+			&copy; Sandy and Leslie 2019
+		</div><!-- end footer -->
+	</body>
+</html>

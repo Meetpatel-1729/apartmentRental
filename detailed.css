@@ -1,0 +1,21 @@
+/*detailed.css*/
+
+.hcenter {
+	text-align: center;
+}
+
+#maincontent img {
+	width: 100%;
+}
+
+nav {
+	font-size: 1.2em;
+}
+
+nav a {
+	margin-right: 25px;
+}
+
+h1, h2 {
+	color: #336699;
+}

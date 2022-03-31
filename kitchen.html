@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sandy and Leslie's Apartment</title>
+		<link href="detailed.css"
+		      rel="stylesheet"
+			  type="text/css"
+		>
+	</head>
+	<body>
+		<header class="hcenter">
+			<h1>Sandy and Leslie's Apartment</h1>
+			<p>Click a room for a detailed view.</p>
+			
+			<figure>
+				<img src="images/floorplan.jpg"
+				     alt="floorplan"
+					 usemap="#floormap"
+				>
+				<map name="floormap">
+					<area shape="rect"
+						  alt="bedroom"
+						  href="bedroom.html"
+						  coords="418,23,555,137"
+					>
+					<area shape="rect"
+						  alt="kitchen"
+						  href="kitchen.html"
+						  coords="97,29,250,123"
+					>
+					<area shape="rect"
+						  alt="office"
+						  href="#"
+						  coords="391,143,566,249"
+					>
+					<area shape="circle"
+						  alt="bathroom"
+						  href="bathroom.html"
+						  coords="310,83,50"
+					>
+					<area shape="poly"
+						  alt="living room"
+						  href="livingroom.html"
+						  coords="31,125,201,122,271,194,253,216,252,249,20,249"
+					>
+				</map>
+			</figure>
+			
+			<nav>
+				<a href="apartment.html">Apartment</a>|&nbsp;&nbsp;&nbsp;
+				<a href="bedroom.html">Bedroom</a>&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="bathroom.html">Bathroom</a>&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="livingroom.html">Living Room</a>&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="kitchen.html">Kitchen</a>&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="#">Office</a>
+			</nav>
+			<br><br>
+		</header>
+		
+		<div class="hcenter" id="maincontent">
+			<h2>Kitchen Detail</h2>
+			<br>
+			
+			<figure>
+				<img src="images/kitchen_lg.jpg"
+					 alt="image of a bedroom"
+				>
+			</figure>
+			
+		</div>
+		
+	</body>
+</html>
